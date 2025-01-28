@@ -2,7 +2,7 @@ Flask==3.1.0
 imbalanced-learn==0.13.0
 keras==3.8.0
 matplotlib==3.10.0
-numpy @ file:///C:/b/abs_0123vcxhf8/croot/numpy_and_numpy_base_1725470331966/work/dist/numpy-2.0.1-cp311-cp311-win_amd64.whl#sha256=46eb5850478cda64bda6d2f2d3d6ad8ceeb7cc168b83532e4f9dbbcb42e22ab2
+numpy==2.0.1
 optuna==4.2.0
 pandas==2.2.3
 plotly==5.24.1
