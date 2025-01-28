@@ -1,0 +1,17 @@
+{% extends "layout.html" %} {% block content %}
+
+<main>
+  <dialog open>
+    <article>
+      <header>
+        <button aria-label="Close" rel="prev" id="close-btn" onclick="redirect()"></button>
+        <p>
+          <strong>Prediction</strong>
+        </p>
+      </header>
+      <p>Looks like this is a {{ prediction }}.</p>
+    </article>
+  </dialog>
+</main>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout.html" %} {% block content %}
+
+<main class="container">
+  <div class="grid">
+    <div class="hero">
+      <hgroup>
+        <h1>Credit Card Fraud Detector</h1>
+        <p>Using Machine Learning and AutoEncoder Architectures</p>
+      </hgroup>
+      <div class="btn-group">
+        <a href="/main"><button>Get Started</button></a>
+        <a href="https://github.com/Tanmoy0077/Credit-Card-Fraud-Detection"
+          ><button class="contrast">View Code</button></a
+        >
+      </div>
+    </div>
+    <div class="image">
+      <img src="{{ url_for('static', filename='images/credt.svg') }}" alt="" />
+    </div>
+  </div>
+</main>
+
+{% endblock %}
