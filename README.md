@@ -26,7 +26,7 @@ The dataset was preprocessed to remove noise and outliers and prepared for model
    - Processed raw data to remove inconsistencies and extreme outliers.
 
 2. **Exploratory Data Analysis (EDA):**
-   - Analyzed class distributions, feature correlations, and visualized patterns using various charts.
+   - Analyzed class distributions, and feature correlations, and visualized patterns using various charts.
 
 3. **Dimensionality Reduction:**
    - Applied **Principal Component Analysis (PCA)** and **Linear Discriminant Analysis (LDA)** to explore and reduce feature space while preserving variance.
@@ -61,16 +61,17 @@ The models were evaluated using **Precision**, **Recall**, and **F1 Score** to e
 
 ---
 
-## 🔮 Future Planning
+## ⚙️ Installation and Usage
 
-- **Hyperparameter Tuning with Optuna:** 
-  Plan to use **Optuna**, a powerful optimization library, to fine-tune model parameters and enhance performance.
-  
-- **Handling Class Imbalance:** 
-  Implement **SMOTE (Synthetic Minority Oversampling Technique)** to balance the dataset, improving model training on minority (fraudulent) classes.
-  
-- **Deep Learning Extensions:**
-  Explore additional architectures like convolutional or recurrent neural networks to enhance fraud detection capabilities.
+Install the dependencies via pip.
+ ```bash
+pip install -r requirements.txt
+```
+Run the Flask app.
+```bash
+python App.py
+```
+The application should start on your localhost at port 5000.
 
 ---
 
